@@ -1,0 +1,64 @@
+article{
+    width: auto;
+    height: 100%;
+}
+section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    float: right;
+}
+
+/* .main-view {
+    width: 100%;
+    height: 100%;
+} */
+
+h1{
+    font-family: 'Zen Dots', cursive;
+    font-size: 30px;
+    position: absolute;
+    display: inline-flex;
+    left: 4%;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+}
+span{
+    font-family: 'Zen Dots', cursive;
+    font-size: 30px;
+    position: absolute;
+    display: inline-flex;
+    left: 5%;
+    top: 45%;
+    color: white;
+}
+
+section h2 {
+    width: 30%;
+}
+
+/* .effect{
+    position: relative;
+} */
+
+/* .effect::after{
+    content: "";
+    border-left: #305F72 5px solid;
+    background: #212B38;
+    right: 0;
+    height: 30px;
+    position: absolute;
+    animation: escritura 5s infinite alternate steps(25);
+} */
+
+/* @keyframes escritura {
+    0%{width: 100%;}
+    25%{width: 75%;}
+    50%{width: 50%;}
+    75%{width: 25%;}
+    100%{width: 0%;}
+} */
+
+
+

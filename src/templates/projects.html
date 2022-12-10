@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/styles-projects.css')}}">
+<article>
+    <section>
+        <div class="header">
+            <h1>Projects</h1>
+        </div>
+        <div class="box">
+            <div class="elements-box">
+                <a href="https://github.com/CristianRG/flask_App"><img src="{{url_for('static', filename='img/purpleBlog.png')}}" alt=""></a>
+            </div>
+            <div class="elements-box">
+                <a href="https://github.com/CristianRG/FSC_GAME"><img src="{{url_for('static', filename='img/Quizz.png')}}" alt=""></a>
+            </div>
+            <div class="elements-box">
+                <a href="https://github.com/CristianRG/FSC_Project"><img src="{{url_for('static', filename='img/securityUniversity.png')}}" alt=""></a>
+            </div>
+            <div class="elements-box">
+                <a href="https://github.com/CristianRG/catalogoWebFlask"><img src="{{url_for('static', filename='img/catalogoWeb.png')}}" alt=""></a>
+            </div>
+            <!-- <div class="elements-box">
+                <img src="{{url_for('static', filename='img/purpleBlog.png')}}" alt="">
+            </div> -->
+        </div>
+    </section>
+</article>
+{% endblock %}

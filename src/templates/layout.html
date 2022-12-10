@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles-layout.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        {%block body%}
+        {%endblock%}
+    </div>
+
+    <div class="social">
+        <a href="https://github.com/CristianRG"><img src="{{url_for('static', filename='img/github.png')}}" alt="github"></a>
+        <a href=""><img src="{{url_for('static', filename='img/facebook.png')}}" alt="facebook"></a>
+        <a href="https://www.youtube.com/channel/UCI6DDtOAh9LC0o9y71mZdag"><img src="{{url_for('static', filename='img/youtube.png')}}" alt="youtube"></a>
+        <a href=""><img src="{{url_for('static', filename='img/gorjeo.png')}}" alt="twitter"></a>
+    </div>
+
+    <div class="nav-bar">
+        <a href="/"><img src="{{url_for('static', filename='img/houseThree.png')}}" alt="home"></a>
+        <a href="/projects"><img src="{{url_for('static', filename='img/navegation.png')}}" alt="projects"></a>
+        <a href="/contact"><img src="{{url_for('static', filename='img/contact.png')}}" alt="contact"></a>
+    </div>
+</body>
+</html>
