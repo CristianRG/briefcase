@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0%;
+    transition: .3s;
 }
 
 .container {
@@ -38,6 +39,10 @@
    justify-content: center;
 }
 
+.social img:hover{
+    background: #1e1e5d;
+}
+
 
 .nav-bar{
     width: 6rem;
@@ -63,6 +68,10 @@
     border-radius: 50%;
     margin-right: 5px;
     margin-left: 5px;
+}
+
+.nav-bar img:hover{
+    background: #1E1E5D;
 }
 
 @keyframes change {
