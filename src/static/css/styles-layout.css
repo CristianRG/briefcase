@@ -12,34 +12,35 @@
     animation: change 15s linear infinite;
 }
 .social{
-    height: 40%;
+    height: 11rem;
     width: 30px;
     background: #212B38;
     border-radius: 10px;
     display: inline-block;
     position: absolute;
     right: 10px;
-    top: 30%;
+    top: 40%;
     /* margin-left: 100px; */
 }
 
 .social img{
     width: 25px;
     height: 25px;
-    position: relative;
+    /* position: relative; */
     background: white;
     border-radius: 50%;
     display: block;
     margin: auto;
-    margin-top: 5px;
-    top: 22%;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    /* top: 20%; */
     align-items: center;
    justify-content: center;
 }
 
 
 .nav-bar{
-    width: 17%;
+    width: 6rem;
     /* min-width: 11%; */
     height: auto;
     min-height: 29px;
@@ -47,7 +48,8 @@
     background: #212B38;
     border-radius: 10px;
     bottom: 2.5px;
-    left: 41.5%;
+    left: 50%;
+    margin-left: -2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
